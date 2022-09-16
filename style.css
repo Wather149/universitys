@@ -1,0 +1,151 @@
+html {
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+    width: 6px;
+}
+
+html::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 6px;
+}
+
+html::-webkit-scrollbar-track {
+    background-color: #423F3E;
+}
+
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: linear-gradient(#181818, #202020);
+  }
+
+  .information img {
+    max-width: 500px;
+    margin-top: -50px;
+    margin-left: 10px;
+  }
+
+  .information h2 {
+    color: #fff;
+    max-width: 500px;
+    text-align: left;
+    margin-top: -110px;
+    margin-left: 155px;
+  }
+
+  .showcase-top img {
+    max-width: 200px;
+  }
+
+  .showcase-top {
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 620px;
+  }
+
+  .login-box {
+    position: absolute;
+    top: 46%;
+    left: 72%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: rgb(29 29 29);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .4);
+    border-radius: 10px;
+  }
+
+  .login-box h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: rgb(52, 164, 255);
+    text-align: center;
+  }
+
+  .login-box .user-box {
+    position: relative;
+  }
+
+  .login-box .user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+  }
+
+  .login-box .user-box label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    pointer-events: none;
+    color: #fff;
+    transition: .5s;
+  }
+
+  .login-box .user-box input:focus~label,
+  .login-box .user-box input:valid~label {
+    top: -20px;
+    left: 0;
+    color: rgb(52, 164, 255);
+    font-size: 13px;
+  }
+
+  .login-box form #DangNhap {
+    position: relative;
+    display: inline-block;
+    padding: 14px 12px;
+    color: rgb(52, 164, 255);
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 12px;
+    letter-spacing: 2px
+  }
+
+  .login-box #DangNhap:hover {
+    background: rgb(95, 202, 255);
+    color: #fff;
+    border-color: rgb(101, 206, 255);
+    box-shadow: 0 0 5px rgb(101, 206, 255),
+      0 0 25px rgb(101, 206, 255),
+      0 0 50px rgb(101, 206, 255),
+      0 0 100px rgb(101, 206, 255);
+  }
+
+  #DangNhap {
+    margin-left: 185px;
+    background-color: rgb(29, 29, 29);
+    border: none;
+  }
+
+  #DangKy {
+    color: rgb(52, 164, 255);
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 14px;
+  }
+
+  #DangKy:hover {
+    text-decoration: underline;
+  }
+
+  #hide {
+    color: #202020;
+    margin-top: 350px;
+    padding-bottom: 100px;
+    background-color: linear-gradient(#181818, #202020);
+    background-image: linear-gradient(to top, #181818, #202020);
+  }
