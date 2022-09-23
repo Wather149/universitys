@@ -146,6 +146,4 @@ html::-webkit-scrollbar-track {
     color: #202020;
     margin-top: 350px;
     padding-bottom: 100px;
-    background-color: linear-gradient(#181818, #202020);
-    background-image: linear-gradient(to top, #181818, #202020);
   }
